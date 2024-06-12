@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc72e2ad155744055aab28ed8b7e769a, type: 3}
+  m_Name: AudioConfig
+  m_EditorClassIdentifier: 
+  _ui:
+  - type: 1
+    controller:
+      rid: 7228875044221353984
+  groupMusic: {fileID: 1563591305960365733, guid: e5e5918dfa60241139f1ad8e6458dced, type: 2}
+  groupSound: {fileID: -3581861977828871343, guid: e5e5918dfa60241139f1ad8e6458dced, type: 2}
+  minMusicdB: -80
+  maxMusicdB: -20
+  minSouddB: -80
+  maxSounddB: -20
+  lowpassDefault: 0
+  lowpassStartRace: 0
+  lowpassPause: 0
+  lowpassTutorialHint: 0
+  lowpassUnlockChest: 0
+  lowpassResult: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 7228875044221353984
+      type: {class: Sound2DController, ns: Audio, asm: Assembly-CSharp}
+      data:
+        _playType: 1
+        _clips:
+        - clipRef:
+            m_AssetGUID: b4bf90bdcde5f44519fe50a0faa2e67b
+            m_SubObjectName: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+          volume: 1

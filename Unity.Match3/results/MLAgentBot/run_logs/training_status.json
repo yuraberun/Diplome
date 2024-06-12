@@ -1,0 +1,29 @@
+{
+    "Match3Agent": {
+        "checkpoints": [
+            {
+                "steps": 1400,
+                "file_path": "results/MLAgentBot/Match3Agent/Match3Agent-1400.onnx",
+                "reward": null,
+                "creation_time": 1718210118.010507,
+                "auxillary_file_paths": [
+                    "results/MLAgentBot/Match3Agent/Match3Agent-1400.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1400,
+            "file_path": "results/MLAgentBot/Match3Agent.onnx",
+            "reward": null,
+            "creation_time": 1718210118.010507,
+            "auxillary_file_paths": [
+                "results/MLAgentBot/Match3Agent/Match3Agent-1400.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.8.0"
+    }
+}
